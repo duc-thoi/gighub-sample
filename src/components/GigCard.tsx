@@ -28,7 +28,7 @@ const GigCard: FunctionComponent<GigCardType> = ({ gig, className = "" }) => {
             event.preventDefault();
             toggleFavorite(gig.id);
           }}
-          aria-label={isFavorite ? "Remove from saved gigs" : "Save gig"}
+          aria-label={isFavorite ? "Removed from saved gigs" : "Save gig"}
         >
           <Heart size={16} fill={isFavorite ? "currentColor" : "none"} />
         </button>
