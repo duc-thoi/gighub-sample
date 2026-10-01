@@ -15,7 +15,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => (
         <Link to="/about">About us</Link>
         <a href="#designers">For designers</a>
         <a href="#support" onClick={(event) => event.preventDefault()}>
-          Support
+          Support changed
         </a>
         <a href="#support" onClick={(event) => event.preventDefault()}>
           Help
