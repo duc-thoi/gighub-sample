@@ -81,7 +81,7 @@ const BriefModal = () => {
             <label>
               Description
               <span>
-                This will help the designer understand the goal and direction of
+                This help the designer understand the goal and direction of
                 your project
               </span>
               <textarea
